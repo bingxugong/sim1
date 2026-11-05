@@ -1,0 +1,27 @@
+
+// 查看当前代理设置
+git config --global http.proxy
+git config --global https.proxy
+ 
+// 设置当前代理为 http://127.0.0.1:1080 或 socket5://127.0.0.1:1080
+git config --global http.proxy 'http://127.0.0.1:1080'
+git config --global https.proxy 'http://127.0.0.1:1080'
+ 
+git config --global http.proxy 'socks5://127.0.0.1:1080'
+git config --global https.proxy 'socks5://127.0.0.1:1080'
+ 
+// 删除 proxy
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+————————————————
+版权声明：本文为CSDN博主「chzenable」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/zhuanju6759/article/details/87855842
+
+
+
+// 设置当前代理为 http://127.0.0.1:7897 或 socket5://127.0.0.1:7897
+git config --global http.proxy 'http://127.0.0.1:7897'
+git config --global https.proxy 'http://127.0.0.1:7897'
+ 
+git config --global http.proxy 'socks5://127.0.0.1:7897'
+git config --global https.proxy 'socks5://127.0.0.1:7897'
